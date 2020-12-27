@@ -30,7 +30,7 @@ function App() {
         }
 
     ])
-    let [tasks, setTasks] = useState({
+    let [tasks, setTasks] = useState<taskStateType>({
 
         [todolistId1]: [
             {id: v1(), title: "HTML&CSS", isDone: true},
